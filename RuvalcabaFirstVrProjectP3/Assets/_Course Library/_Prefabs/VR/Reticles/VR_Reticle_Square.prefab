@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4293456250089572672}
   - component: {fileID: 881210343408928485}
   - component: {fileID: 3161042511625646639}
-  - component: {fileID: 7949817475987872262}
+  - component: {fileID: 1906786948634826909}
   m_Layer: 0
   m_Name: VR_Reticle_Square
   m_TagString: Untagged
@@ -84,7 +84,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &7949817475987872262
+--- !u!114 &1906786948634826909
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -93,7 +93,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3521457681945940986}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc07d7e1293daba49b89dddc64f12285, type: 3}
+  m_Script: {fileID: 11500000, guid: a63508a050dcb5b4aafe5bb143d51a59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  reticleSquare: {fileID: 3521457681945940986}
+  rotationSpeed: {x: 0, y: 100, z: 0}
